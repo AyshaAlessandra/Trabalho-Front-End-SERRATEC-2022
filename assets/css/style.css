@@ -1,0 +1,188 @@
+body {
+    margin: 0;
+    font-size: 14px;
+    background-image: url(https://data.1freewallpapers.com/download/purple-galaxy-1680x1050.jpg);
+}
+.container-header {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgba(2, 12, 12, 0.473);
+  color: #fff;
+}
+
+.left-side {
+    width: 50%;
+   
+}
+
+.right-side {
+    letter-spacing: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: 50%;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.redes {
+    margin: 0;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+}
+
+.contato {
+    margin-bottom: 0;
+    margin: 0;
+}
+
+.logoRedes {
+    height: 25px;
+}
+
+.titulo {
+    flex-wrap: wrap;
+    color: #ffffff;
+    text-align: center;
+    background-color: #00000067;
+}
+
+.corpoSite {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.vertical {
+    flex-wrap: wrap;
+    margin: auto;
+    border-radius: 10px;
+    border-style: inset;
+    width: 20rem;
+    height: 20.6rem;
+    transition: transform 0.25s linear;
+    background-color: rgba(49, 21, 56, 0.582);
+}
+
+.fotoCards {
+    transition: 0.25s linear;
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.vertical:hover {
+    transform: translate(0px, -2px);
+    transform: scale(1.1);
+}
+
+.descricao {
+    flex-wrap: wrap;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: bolder;
+    width: 99%;
+    height: 27%;
+    background-color: #a8aaac98;
+}
+
+.sobre {
+    flex-wrap: wrap;
+    margin-top: 0;
+    display: flex;
+    width: 100%;
+    color: #ffffff;
+    background-color: #00000067;
+}
+
+.minhaFt {
+    width: 240px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.comentando {
+    text-align: left;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tituloForm {
+    background-color: #00000067;
+    color: #ffffff;
+    margin-top: 0;
+    text-align: center;
+}
+
+.formulario {
+    flex-wrap: wrap;
+    display: flex;
+    margin-left: 27%;
+    width: 45%;
+    background-color: rgba(49, 21, 56, 0.582);
+    border-radius: 10px;
+}
+
+.formulario form {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 60%;
+}
+
+.formulario form input[type="email"],
+.formulario form input[type="name"],
+.formulario textarea {
+    font-size: 1rem;
+    padding: 0.3rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.formulario form input[type="submit"] {
+    width: 50%;
+    margin: auto;
+    background-color: #ce76b4;
+    padding: 0.5rem;
+    border-radius: 15px;
+    border: 0.20rem solid #260f35;
+    font-weight: bold;
+    color: #fff;
+    transition: 0.4s;
+}
+
+footer {
+
+    background-color: #00000067;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.final {
+    font-weight: bolder;
+    letter-spacing: 2px;
+    color: #ffffff;
+}
+@media screen  and (max-width:600px){ 
+    .formulario form input[type="submit"] {
+       font-size: 12px;
+    }
+}
+
